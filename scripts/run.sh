@@ -25,7 +25,7 @@ cd /home/Armorial-Carrero/bin
 sleep 1
 
 cd /home/Armorial-Actuator/bin
-./Armorial-Actuator &> /dev/null &
+./Armorial-SimActuator &> /dev/null &
 
 sleep 1
 
