@@ -1,11 +1,13 @@
 scriptWD=`pwd`
 
+var=$4
+
 sudo rm -rf /var/lib/omniorb/*
 sudo service omniorb4-nameserver restart
 
 sleep 1
 
-if [ $4 ]
+if [ $4 ];
 then
 
 cd /home/Suassuna-SSL-Cangaco/bin
