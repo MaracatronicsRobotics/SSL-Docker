@@ -1,13 +1,13 @@
 scriptWD=`pwd`
 
-var=$4
+var=$5
 
 sudo rm -rf /var/lib/omniorb/*
 sudo service omniorb4-nameserver restart
 
 sleep 1
 
-if [ $4 ];
+if [ $5 ];
 then
 
 cd /home/Suassuna-SSL-Cangaco/bin
@@ -20,7 +20,7 @@ cd /home/WRBackbone/trunk/build/bin
 
 sleep 1
 cd /home/Armorial-Carrero/bin
-./Armorial-Carrero 224.5.23.2 $1 &> /dev/null &
+./Armorial-Carrero 224.5.23.2 $1 $4 &> /dev/null &
 
 sleep 1
 
