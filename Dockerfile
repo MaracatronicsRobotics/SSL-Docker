@@ -1,4 +1,5 @@
-FROM ubuntu:20.04
+FROM robocupssl/ubuntu-vnc:latest
+USER root
 
 RUN apt-get update
 RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
@@ -70,4 +71,5 @@ RUN cd /home && \
     mkdir build && cd build && \
     qmake .. && \
     make -j4
-    
+
+USER default
