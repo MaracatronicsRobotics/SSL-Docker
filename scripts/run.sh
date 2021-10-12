@@ -11,7 +11,7 @@ if [ $5 ];
 then
 
 cd /home/Suassuna-SSL-Cangaco/bin
-./Armorial-Suassuna --teamColor $2 --teamSide $3 --warthog
+./Armorial-Suassuna --teamColor $2 --teamSide $3 --networkInterface $4 --warthog
 
 else
 
