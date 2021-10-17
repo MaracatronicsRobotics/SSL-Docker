@@ -16,3 +16,14 @@ sh deployDockerhubMRC.sh
 ```
 
 ## Deploying to WR's Registry
+
+```shell
+# To build the image
+
+sh dockerbuildRobocup.sh [GIT-TOKEN]
+
+# To deploy
+
+sh deployRegistryWR.sh
+
+```
