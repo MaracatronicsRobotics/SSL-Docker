@@ -1,0 +1,6 @@
+import "include/3rdparty/proto/grSim/grSim_Commands.proto";
+import "include/3rdparty/proto/grSim/grSim_Replacement.proto";
+message grSim_Packet {
+    optional grSim_Commands commands = 1;
+    optional grSim_Replacement replacement = 2;
+}
